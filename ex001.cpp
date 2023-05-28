@@ -4,12 +4,56 @@ int main()
 {
   std::cout << "KKKKK QUE BOBÃO KKKK" std::endl;
   std::cout << "KKKKK GORDO" std::endl;
-  return 0;
-}
-
-// NÃO SEI O QUE FAZER
-{
+  
   std::cout << "KKKKKKKKKKK\n";
   std::cout << "QU BURROO KKKKKK\n";
+  
+  int x;
+  x = "KKK";
+  std::cout << x << std::endl;
+  int sum;
+  sum = x + "kk";
+  std::cout << sum;
+  */
+
+  // int (somente pra um numero inteiro)
+
+  int x = 5;
+  int y = 6;
+  int sum = x + y;
+  std::cout << sum << "\n" << x << "\n" << y;
+
+  int kkkk = sum + y + x;
+  std::cout << "\n" << kkkk << std::endl;
+
+  std::cout << "Esse programa só tem uma função, dizer se o Lian é gordo.\n";
+  std::cout << "E.............." << std::endl;
+  std::cout << "Siis, ele é" << std::endl;
+  std::cout << "return 0;";
+
+  // double (serve pra guardar numero decimal)
+
+  double horas = 02.30;
+  double temperatura = 21.5;
+  std::cout << std::endl << horas << std::endl << temperatura << '\n';
+
+  // char (só um caractere, uma letra em variaável)
+
+  char TurmaDoLian = 'A';
+  char Turno = 'N';
+  std::cout << TurmaDoLian << '\n' << Turno;
+
+  bool Jamelao = true;
+  bool Gordo = true;
+  bool magro = false;
+
+  std::string nome = "Leonardo";
+  std::string idade = "21 anos";
+  std::string hobbie = "Jogar";
+  std::string jogo = "Rocket League";
+  std::string profissões = "Programador e YouTuber.";
+
+  std::cout << "Olá! Meu nome é " << nome << ", eu tenho " << anos << ". Eu gosto de " << hobbie << " o jogo " << jogo << ", minhas profissões atualmente são: " << profissões;
+
   return 0;
 }
