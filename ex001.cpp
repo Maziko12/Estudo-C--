@@ -43,16 +43,24 @@ int main()
   char Turno = 'N';
   std::cout << TurmaDoLian << '\n' << Turno;
 
+  // booleano, serve apenas para dar um valor para uma variável, sendo true ou false, provavelmente pra ser usado depois, com outros valores.
+  
   bool Jamelao = true;
   bool Gordo = true;
   bool magro = false;
 
+  // string, método original para se criar uma variável que tenha string, diferente do Python
+  // onde as strings são feitas diretamente, já podendo serem alteradas com uso de tuplas, listas e dicionários.
+  
   std::string nome = "Leonardo";
   std::string idade = "21 anos";
   std::string hobbie = "Jogar";
   std::string jogo = "Rocket League";
   std::string profissões = "Programador e YouTuber.";
 
+  // Criando uma frase de strings e prints, porém colocando de uma forma diferente, usando as próprias variáveis.
+  // E isso, porque eu não sei fazer aquilo do python aqui, em c++: (f'Você tirou nota {nota}! Parabéns.').
+  
   std::cout << "Olá! Meu nome é " << nome << ", eu tenho " << anos << ". Eu gosto de " << hobbie << " o jogo " << jogo << ", minhas profissões atualmente são: " << profissões;
 
   return 0;
