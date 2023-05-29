@@ -14,7 +14,6 @@ int main()
   int sum;
   sum = x + "kk";
   std::cout << sum;
-  */
 
   // int (somente pra um numero inteiro)
 
