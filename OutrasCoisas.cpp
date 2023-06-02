@@ -15,6 +15,7 @@ int main() {
   int sum = x + first::x + second::x;
   cout << first::x << std::endl;
   cout << sum << " Esse é o resultado";
+  
 
   return 0;
 }
