@@ -5,11 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         
+
+        
         {
             "name": "(gdb) Anexar",
             "type": "cppdbg",
             "request": "attach",
-            "program": "insira o nome do programa, por exemplo ${workspaceFolder}/a.exe",
+            "program": "${workspaceFolder}/Arquivonovo.exe",
             "MIMode": "gdb",
             "miDebuggerPath": "/path/to/gdb",
             "setupCommands": [
@@ -23,7 +25,8 @@
                     "text": "-gdb-set disassembly-flavor intel",
                     "ignoreFailures": true
                 }
-            ]
+            ],
+            "externalConsole": false
         },
         {
             "type": "lldb",
