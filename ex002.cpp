@@ -9,8 +9,8 @@ int soma(int num, int num2)
 }
 int main ()
 {
-  cout << "Olá, como vai? Seja bem-vindo(a) ao meu programa!";
-  cout << "---------------_---------------\n" << endl;
+  cout << "Olá, como vai? Seja bem-vindo(a) ao meu programa!" << endl;
+  cout << "---------------_---------------" << endl;
 
   int num;
   cout << endl << "\nVocê poderia me dizer dois números? Eu te direi a soma deles!\nPrimeiro número: ";
