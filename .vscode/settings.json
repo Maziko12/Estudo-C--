@@ -45,5 +45,6 @@
         "xstring": "cpp",
         "xtr1common": "cpp",
         "xutility": "cpp"
-    }
+    },
+    "cmake.sourceDirectory": "C:/Users/henri/Documents/GitHub/C++ Studs/Estudo-C--/CPPExampleBot-master"
 }

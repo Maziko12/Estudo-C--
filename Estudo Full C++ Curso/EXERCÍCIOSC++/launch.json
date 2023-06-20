@@ -28,10 +28,10 @@
             ]
         },
         {
-            "type": "gdb",
+            "type": "lldb",
             "request": "launch",
             "name": "Debug",
-            "program": "${workspaceFolder}/<ex001.cpp>",
+            "program": "${workspaceFolder}/<ex001.exe>",
             "args": [],
             "cwd": "${workspaceFolder}"
         }
