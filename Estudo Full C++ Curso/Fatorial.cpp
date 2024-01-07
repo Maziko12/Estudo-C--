@@ -23,6 +23,7 @@ int Traves(string & = str)
     std::string Tracejados = " " + Tracos;
   }
   return std::string Tracejados;
+}
 
 int main()
 {
